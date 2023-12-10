@@ -218,7 +218,6 @@ class App {
   _renderWorkout(workout) {
     const html = `
       <li class="workout workout--${workout.type}" data-id='${workout.id}'>
-      <i class="delete fa-regular fa-trash-can fa-2x" style="color: #ffffff;"></i>
         <h2 class="workout__title">${
           workout.type.charAt(0).toUpperCase() + workout.type.slice(1)
         } on April 14</h2>
